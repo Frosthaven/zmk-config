@@ -150,7 +150,7 @@
       bindings = <
         &bt BT_CLR   &kp C_STOP       &kp C_VOL_UP    &kp C_PLAY_PAUSE &rgb_ug RGB_HUD &rgb_ug RGB_HUI &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &bt BT_CLR
         &bootloader  &kp C_PREV       &kp C_VOL_DN    &kp C_NEXT       &rgb_ug RGB_SAD &rgb_ug RGB_SAI &out OUT_TOG &none        &none        &none        &none        &bootloader
-        &reset       &rgb_ug RGB_TOG  &rgb_ug RGB_EFR &rgb_ug RGB_EFF  &rgb_ug RGB_BRD &rgb_ug RGB_BRI &to 0        &to 1        &to 2        &to 3        &to 4        &reset
+        &sys_reset       &rgb_ug RGB_TOG  &rgb_ug RGB_EFR &rgb_ug RGB_EFF  &rgb_ug RGB_BRD &rgb_ug RGB_BRI &to 0        &to 1        &to 2        &to 3        &to 4        &sys_reset
         &trans       &trans           &trans          &trans           &trans          &trans
       >;
     };
