@@ -1,6 +1,9 @@
 # SAMURAI ZMK KEYMAP
 
-This is a bluetooth-enabled [ZMK firmware](https://github.com/zmkfirmware/zmk) configuration for the [Corne keyboard (aka crkbd; helidox)](https://github.com/foostan/crkbd), powered by the [nice!nano v2](https://flashquark.com/product/nicenano-v2-0-wireless-pro-micro-replacement/) microprocessor and equipped with [nice!view](https://nicekeyboards.com/nice-view/) displays.
+This is a bluetooth-enabled [ZMK firmware](https://github.com/zmkfirmware/zmk):
+ - Compatible Hardware: [Corne keyboard (aka crkbd; helidox)](https://github.com/foostan/crkbd)
+ - Compatible Microcontroller: [nice!nano v2](https://flashquark.com/product/nicenano-v2-0-wireless-pro-micro-replacement/)
+ - (Optional) Compatible Displays: [nice!view](https://nicekeyboards.com/nice-view/)
 
 ## The Default Layer
 Layer 0 is the default layer, `COLE-DH`. This is a Colemak layout with the Mod-DH modifications.
