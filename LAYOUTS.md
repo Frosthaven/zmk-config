@@ -1,8 +1,8 @@
-## Layout Layers
+## Keyboard Layouts
 
-### Default - Colemak With Mod DH (Layer 0)
+### Default Layout
 
-![Layer 0](/visual/LAYER0.png)
+![Layer 0](/visual/v2/LAYER0.png)
 
 ### Alternate Layouts
 
