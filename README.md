@@ -1,6 +1,6 @@
 # SAMURAI ZMK KEYMAP
 
-This is a bluetooth-enabled [ZMK firmware](https://github.com/zmkfirmware/zmk):
+This is a bluetooth-enabled [ZMK firmware](https://github.com/zmkfirmware/zmk) configuration for:
  - Compatible Hardware: [Corne keyboard (aka crkbd; helidox)](https://github.com/foostan/crkbd)
  - Compatible Microcontroller: [nice!nano v2](https://flashquark.com/product/nicenano-v2-0-wireless-pro-micro-replacement/)
  - (Optional) Compatible Displays: [nice!view](https://nicekeyboards.com/nice-view/)
