@@ -1,4 +1,5 @@
-// DISABLE WORD WRAP FOR EASIER READING
+/* DISABLE WORD WRAP FOR EASIER READING ****************************************
+*******************************************************************************/
 
 /*
  * Copyright (c) 2020 The ZMK Contributors
@@ -35,143 +36,94 @@
 / {
 
   macros {
-
-    /* these are for compatibility with multiple systems **********
-    **************************************************************/
-
     // MACOS requires the caps lock key to be held for 200ms to register
     ZMK_MACRO(m_caps,
       tap-ms = <200>;
       bindings = <&kp CAPS>;
     )
-
-    /* these are aliases to keep the keymap readable **************
-    **************************************************************/
-
-    // standard
-    ZMK_MACRO(m_bslash, bindings = <&kp BACKSLASH>;)
-
-    // numpad
-    ZMK_MACRO(m_kdivide, bindings = <&kp KP_DIVIDE>;)
-    ZMK_MACRO(m_kmultiply, bindings = <&kp KP_MULTIPLY>;)
-    ZMK_MACRO(m_kpercent, bindings = <&kp KP_PERCENT>;)
-    ZMK_MACRO(m_kenter, bindings = <&kp KP_ENTER>;)
-
-    // media
-    ZMK_MACRO(m_cstop, bindings = <&kp C_STOP>;)
-    ZMK_MACRO(m_cprev, bindings = <&kp C_PREV>;)
-    ZMK_MACRO(m_cnext, bindings = <&kp C_NEXT>;)
-    ZMK_MACRO(m_cvolu, bindings = <&kp C_VOL_UP>;)
-    ZMK_MACRO(m_cvold, bindings = <&kp C_VOL_DN>;)
-    ZMK_MACRO(m_cplay, bindings = <&kp C_PLAY_PAUSE>;)
-
-    // rgb
-    ZMK_MACRO(m_rgbtog, bindings = <&rgb_ug RGB_TOG>;)
-    ZMK_MACRO(m_rgbefr, bindings = <&rgb_ug RGB_EFR>;)
-    ZMK_MACRO(m_rgbeff, bindings = <&rgb_ug RGB_EFF>;)
-    ZMK_MACRO(m_rgbbrd, bindings = <&rgb_ug RGB_BRD>;)
-    ZMK_MACRO(m_rgbbri, bindings = <&rgb_ug RGB_BRI>;)
-    ZMK_MACRO(m_rgbhud, bindings = <&rgb_ug RGB_HUD>;)
-    ZMK_MACRO(m_rgbhui, bindings = <&rgb_ug RGB_HUI>;)
-    ZMK_MACRO(m_rgbsad, bindings = <&rgb_ug RGB_SAD>;)
-    ZMK_MACRO(m_rgbsai, bindings = <&rgb_ug RGB_SAI>;)
-
-    // bluetooth &bt BT_SEL 1 through 5
-    ZMK_MACRO(m_bt_clr, bindings = <&bt BT_CLR>;)
-    ZMK_MACRO(m_bt_1, bindings = <&bt BT_SEL 1>;)
-    ZMK_MACRO(m_bt_2, bindings = <&bt BT_SEL 2>;)
-    ZMK_MACRO(m_bt_3, bindings = <&bt BT_SEL 3>;)
-    ZMK_MACRO(m_bt_4, bindings = <&bt BT_SEL 4>;)
-    ZMK_MACRO(m_bt_5, bindings = <&bt BT_SEL 5>;)
-
-    // system
-    ZMK_MACRO(m_output, bindings = <&out OUT_TOG>;)
-    ZMK_MACRO(m_boot, bindings = <&bootloader>;)
-    ZMK_MACRO(m_reset, bindings = <&sys_reset>;)
   };
 
   keymap {
-    compatible = "zmk,keymap";
+      compatible = "zmk,keymap";
 
-    default_layer { // 0
-      label = "COLE-DH";
-      bindings = <
-      &kp TAB         &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SEMI        &kp BSPC
-      &kp LCTRL       &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
-      &kp LSHFT       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RSHFT
-                                                      &kp LALT        &mo 5           &kp SPACE       &kp RET         &mo 6           &kp LGUI
-      >;
+      layout_layer_0 {
+        label = "COLE-DH";
+        bindings = <
+          &kp TAB               &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI              &kp BSPC
+          &kp LCTRL             &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O                 &kp SQT
+          &kp LSHFT             &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH              &kp RSHFT
+                                                                    &kp LALT          &mo 5             &kp SPACE         &kp RET           &mo 6             &kp LGUI
+        >;
+      };
+
+      layout_layer_1 {
+        label = "QWERTY";
+        bindings = <
+          &trans                &kp Q             &kp W             &kp E             &kp R             &kp T             &kp Y             &kp U             &kp I             &kp O             &kp P                 &trans
+          &trans                &kp A             &kp S             &kp D             &kp F             &kp G             &kp M             &kp J             &kp K             &kp L             &kp SEMI              &kp SQT
+          &trans                &kp Z             &kp X             &kp C             &kp V             &kp B             &kp N             &kp M             &kp COMMA         &kp DOT           &kp FSLH              &trans
+                                                                    &trans            &trans            &trans            &trans            &trans            &trans
+        >;
+      };
+
+      layout_layer_2 {
+        label = "DVORAK";
+        bindings = <
+          &trans                &kp SQT           &kp COMMA         &kp DOT           &kp P             &kp Y             &kp F             &kp G             &kp C             &kp R             &kp L                 &trans
+          &trans                &kp A             &kp O             &kp E             &kp U             &kp I             &kp D             &kp H             &kp T             &kp N             &kp S                 &kp FSLH
+          &trans                &kp SEMI          &kp Q             &kp J             &kp K             &kp X             &kp B             &kp M             &kp W             &kp V             &kp Z                 &trans
+                                                                    &trans            &trans            &trans            &trans            &trans            &trans
+        >;
+      };
+
+      layout_layer_3 {
+        label = "WORKMAN";
+        bindings = <
+          &trans                &kp Q             &kp D             &kp R             &kp W             &kp B             &kp J             &kp F             &kp U             &kp P             &kp SEMI              &trans
+          &trans                &kp A             &kp S             &kp H             &kp T             &kp G             &kp Y             &kp N             &kp E             &kp O             &kp I                 &kp SQT
+          &trans                &kp Z             &kp X             &kp M             &kp C             &kp V             &kp K             &kp L             &kp COMMA         &kp DOT           &kp FSLH              &trans
+                                                                    &trans            &trans            &trans            &trans            &trans            &trans
+        >;
+      };
+
+      layout_layer_4 {
+        label = "COLEMAK";
+        bindings = <
+          &trans                &kp Q             &kp W             &kp F             &kp P             &kp G             &kp J             &kp L             &kp U             &kp Y             &kp SEMI              &trans
+          &trans                &kp A             &kp R             &kp S             &kp T             &kp D             &kp H             &kp N             &kp E             &kp I             &kp O                 &kp SQT
+          &trans                &kp Z             &kp X             &kp C             &kp V             &kp B             &kp K             &kp M             &kp COMMA         &kp DOT           &kp FSLH              &trans
+                                                                    &trans            &trans            &trans            &trans            &trans            &trans
+        >;
+      };
+
+      lower_layer { // 5
+        label = "SYMBOLS";
+        bindings = <
+          &kp ESC               &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp GRAVE         &kp EXCL          &kp AMPS          &kp AT            &kp HASH              &kp DEL
+          &macro_caps           &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp DLLR          &kp LPAR          &kp LBRC          &kp LBKT          &kp PIPE              &kp CARET
+          &mt LSHFT KP_NUM      &kp F11           &kp F12           &kp F13           &kp F14           &kp F15           &kp UNDER         &kp RPAR          &kp RBRC          &kp RBKT          &kp BACKSLASH         &kp TILDE
+                                                                    &trans            &trans            &trans            &trans            &mo 7             &kp K_APP
+        >;
+      };
+
+      raise_layer { // 6
+        label = "NUMPAD";
+        bindings = <
+          &kp ESC               &kp HOME          &kp UP            &kp END           &none             &none             &kp PG_UP         &kp N7            &kp N8            &kp N9            &kp KP_DIVIDE          &kp KP_MULTIPLY
+          &mt LCTRL CAPS        &kp LEFT          &kp DOWN          &kp RIGHT         &none             &none             &kp PG_DN         &kp N4            &kp N5            &kp N6            &kp MINUS              &kp PLUS
+          &mt LSHFT KP_NUM      &none             &none             &none             &none             &none             &kp DOT           &kp N1            &kp N2            &kp N3            &kp PERCENT            &kp EQUAL
+                                                                    &trans            &mo 7             &trans            &kp KP_ENTER      &trans            &kp N0
+        >;
+      };
+
+      adjust_layer { // 7
+        label = "SYSTEM";
+        bindings = <
+          &bt BT_CLR            &kp C_STOP        &kp C_VOL_UP      &kp C_PLAY_PAUSE  &rgb_ug RGB_HUD   &rgb_ug RGB_HUI   &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_SEL 5          &bt BT_CLR
+          &bootloader           &kp C_PREV        &kp C_VOL_DN      &kp C_NEXT        &rgb_ug RGB_SAD   &rgb_ug RGB_SAI   &out OUT_TOG      &none             &none             &none             &none                 &bootloader
+          &sys_reset            &rgb_ug RGB_TOG   &rgb_ug RGB_EFR   &rgb_ug RGB_EFF   &rgb_ug RGB_BRD   &rgb_ug RGB_BRI   &to 0             &to 1             &to 2             &to 3             &to 4                 &sys_reset
+                                                                    &trans            &trans            &trans            &trans            &trans            &trans
+        >;
+      };
     };
-
-    qwerty_layer { // 1
-      label = "QWERTY";
-      bindings = <
-      &trans          &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P           &trans
-      &trans          &kp A           &kp S           &kp D           &kp F           &kp G           &kp M           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
-      &trans          &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &trans
-                                                      &trans          &trans          &trans          &trans          &trans          &trans
-      >;
-    };
-
-    dvorak_layer { // 2
-      label = "DVORAK";
-      bindings = <
-      &trans          &kp SQT         &kp COMMA       &kp DOT         &kp P           &kp Y           &kp F           &kp G           &kp C           &kp R           &kp L           &trans
-      &trans          &kp A           &kp O           &kp E           &kp U           &kp I           &kp D           &kp H           &kp T           &kp N           &kp S           &kp FSLH
-      &trans          &kp SEMI        &kp Q           &kp J           &kp K           &kp X           &kp B           &kp M           &kp W           &kp V           &kp Z           &trans
-                                                      &trans          &trans          &trans          &trans          &trans          &trans
-      >;
-    };
-
-    workman_layer { // 3
-      label = "WORKMAN";
-      bindings = <
-      &trans          &kp Q           &kp D           &kp R           &kp W           &kp B           &kp J           &kp F           &kp U           &kp P           &kp SEMI        &trans
-      &trans          &kp A           &kp S           &kp H           &kp T           &kp G           &kp Y           &kp N           &kp E           &kp O           &kp I           &kp SQT
-      &trans          &kp Z           &kp X           &kp M           &kp C           &kp V           &kp K           &kp L           &kp COMMA       &kp DOT         &kp FSLH        &trans
-                                                      &trans          &trans          &trans          &trans          &trans          &trans
-      >;
-    };
-
-    colemak_layer { // 4
-      label = "COLEMAK";
-      bindings = <
-      &trans          &kp Q           &kp W           &kp F           &kp P           &kp G           &kp J           &kp L           &kp U           &kp Y           &kp SEMI        &trans
-      &trans          &kp A           &kp R           &kp S           &kp T           &kp D           &kp H           &kp N           &kp E           &kp I           &kp O           &kp SQT
-      &trans          &kp Z           &kp X           &kp C           &kp V           &kp B           &kp K           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &trans
-                                                      &trans          &trans          &trans          &trans          &trans          &trans
-      >;
-    };
-
-    lower_layer { // 5
-      label = "SYMBOLS";
-      bindings = <
-      &kp ESC         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp GRAVE       &kp EXCL        &kp AMPS        &kp AT          &kp HASH        &kp DEL
-      &m_caps         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp DLLR        &kp LPAR        &kp LBRC        &kp LBKT        &kp PIPE        &kp CARET
-&mt LSHFT &kp KP_NUM  &kp F11         &kp F12         &kp F13         &kp F14         &kp F15         &kp UNDER       &kp RPAR        &kp RBRC        &kp RBKT        &m_bslash       &kp TILDE
-                                                      &trans          &trans          &trans          &trans          &mo 7           &kp K_APP
-      >;
-    };
-
-    raise_layer { // 6
-      label = "NUMPAD";
-      bindings = <
-      &kp ESC         &kp HOME        &kp UP          &kp END         &none           &none           &kp PG_UP       &kp N7          &kp N8          &kp N9          &m_kdivide      &m_kmultiply
-&mt LCTRL &m_caps     &kp LEFT        &kp DOWN        &kp RIGHT       &none           &none           &kp PG_DN       &kp N4          &kp N5          &kp N6          &kp MINUS       &kp PLUS
-      &m_sh_num       &none           &none           &none           &none           &none           &kp DOT         &kp N1          &kp N2          &kp N3          &m_kpercent     &kp EQUAL
-                                                      &trans          &mo 7           &trans          &m_kenter       &trans          &kp N0
-      >;
-    };
-
-    adjust_layer { // 7
-      label = "SYSTEM";
-      bindings = <
-      &m_bt_clr       &m_cstop        &m_cvolu        &m_cplay        &m_rgbhud       &m_rgbhui       &m_bt_1         &m_bt_2         &m_bt_3         &m_bt_4         &m_bt_5         &m_bt_clr
-      &m_boot         &m_cprev        &m_cvold        &m_cnext        &m_rgbsad       &m_rgbsai       &m_output       &none           &none           &none           &none           &m_boot
-      &m_reset        &m_rgbtog       &m_rgbefr       &m_rgbeff       &m_rgbbrd       &m_rgbbri       &to 0           &to 1           &to 2           &to 3           &to 4           &m_reset
-                                                        &trans          &trans          &trans          &trans          &trans          &trans
-      >;
-    };
-
-  };
 };
