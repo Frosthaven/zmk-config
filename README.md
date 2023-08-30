@@ -12,18 +12,15 @@ To access other layers while typing, you will be holding down the layer keys, sh
  - Holding down the right key enables `NUMPAD`
  - Holding down both keys enables `SYSTEM`.
 
-## Feature Layers
+## Layers
 
 ![Layer 5](/visual/LAYER5.png)
 ![Layer 6](/visual/LAYER6.png)
-
-## System Layer
-
 ![Layer 7](/visual/LAYER7.png)
 
 ## Changing To A Different Layout
 
-Layers 1-4 are alternative layouts (QWERTY, DVORAK, etc).
+Layers 1-4 are reserved for alternative layouts (QWERTY, DVORAK, etc).
 To change your active layout to one of the other supported ones:
 - hold down both red layer keys at the same time to access the `SYSTEM` layer.
 - Using your right hand, press the key corresponding to the layout you want to switch to, labelled as `TO LYR#`.
