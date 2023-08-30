@@ -16,6 +16,7 @@ To access other layers while typing, you will be holding down the layer keys, sh
  - Holding down both keys enables `SYSTEM`.
 
 ## Layers
+*Note: Keys with blue text indicate that you must hold the key for that action to take effect. Tapping the key will do the other listed action.*
 
 ![Layer 5](/visual/LAYER5.png)
 ![Layer 6](/visual/LAYER6.png)

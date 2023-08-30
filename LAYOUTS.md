@@ -1,7 +1,6 @@
 ## Layout Layers
-*Note: Keys with blue text indicate that you must hold the key for that action to take effect. Tapping the key will do the other listed action.*
 
-### Default - Colemak With Mod DH
+### Default - Colemak With Mod DH (Layer 0)
 
 ![Layer 0](/visual/LAYER0.png)
 
