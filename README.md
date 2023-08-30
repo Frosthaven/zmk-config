@@ -8,10 +8,10 @@ This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
 ## Layers
 Layer 0 is the default layer, `COLE-DH`. This is a ColemakDH layout.
 
-![Layer 0](/visual/LAYER0.png)
-![Layer 5](/visual/LAYER5.png)
-![Layer 6](/visual/LAYER6.png)
-![Layer 7](/visual/LAYER7.png)
+![Layer 0](/visual/LAYER0.png?v=1)
+![Layer 5](/visual/LAYER5.png?v=1)
+![Layer 6](/visual/LAYER6.png?v=1)
+![Layer 7](/visual/LAYER7.png?v=1)
 
 ## Changing To A Different Layout
 
