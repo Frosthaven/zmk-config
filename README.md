@@ -20,6 +20,6 @@ Layer 0 is the default layer, `COLE-DH`. This is a ColemakDH layout.
 Layers 1-4 are reserved for alternative layouts (QWERTY, DVORAK, etc).
 To change your active layout to one of the other supported ones:
 - hold down both red layer keys at the same time to access the `SYSTEM` layer.
-- Using your right hand, press the key corresponding to the layout you want to switch to, labelled as `TO LYR#`.
+- Using your right hand, press the key corresponding to the layout you want to switch to, shown in purple.
 
 *Supported layouts can be viewed [here](LAYOUTS.md).*
