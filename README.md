@@ -6,7 +6,7 @@ This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
  - (Optional) Compatible Displays: [nice!view](https://nicekeyboards.com/nice-view/)
 
 ## Layers
-Layer 0 is the default layer, `COLE-DH`. This is a ColemakDH layout.
+Layer 0 is the default layer, `COLE-DH`. This is a ColemakDH layout. You can change the layout at any time. Instructions for doing so are at the end of this readme.
 
 ![Layer 0](/visual/LAYER0-v1.png)
 ![Layer 5](/visual/LAYER5-v1.png)
