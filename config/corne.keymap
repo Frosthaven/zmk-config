@@ -1,8 +1,5 @@
 // DISABLE WORD WRAP FOR EASIER READING
 
-/* CREDITS *********************************************************************
-*******************************************************************************/
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  * SPDX-License-Identifier: MIT
@@ -60,10 +57,6 @@
     ZMK_MACRO(m_kpercent, bindings = <&kp KP_PERCENT>;)
     ZMK_MACRO(m_kenter, bindings = <&kp KP_ENTER>;)
 
-    // multi-tap
-    ZMK_MACRO(m_sh_num, bindings = <&mt LSHFT &kp KP_NUM>;)
-    ZMK_MACRO(m_ct_cap, bindings = <&mt LCTRL &m_caps>;)
-
     // media
     ZMK_MACRO(m_cstop, bindings = <&kp C_STOP>;)
     ZMK_MACRO(m_cprev, bindings = <&kp C_PREV>;)
@@ -93,7 +86,7 @@
 
     // system
     ZMK_MACRO(m_output, bindings = <&out OUT_TOG>;)
-    ZMK_MACRO(m_boot,bindings = <&bootloader>;)
+    ZMK_MACRO(m_boot, bindings = <&bootloader>;)
     ZMK_MACRO(m_reset, bindings = <&sys_reset>;)
   };
 
@@ -155,7 +148,7 @@
       bindings = <
         &kp ESC         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp GRAVE       &kp EXCL        &kp AMPS        &kp AT          &kp HASH        &kp DEL
         &m_caps         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp DLLR        &kp LPAR        &kp LBRC        &kp LBKT        &kp PIPE        &kp CARET
-        &m_sh_num       &kp F11         &kp F12         &kp F13         &kp F14         &kp F15         &kp UNDER       &kp RPAR        &kp RBRC        &kp RBKT        &m_bslash       &kp TILDE
+        &mt LSHFT &kp KP_NUM       &kp F11         &kp F12         &kp F13         &kp F14         &kp F15         &kp UNDER       &kp RPAR        &kp RBRC        &kp RBKT        &m_bslash       &kp TILDE
                                                         &trans          &trans          &trans          &trans          &mo 7           &kp K_APP
       >;
     };
@@ -164,7 +157,7 @@
       label = "NUMPAD";
       bindings = <
         &kp ESC         &kp HOME        &kp UP          &kp END         &none           &none           &kp PG_UP       &kp N7          &kp N8          &kp N9          &m_kdivide      &m_kmultiply
-        &m_ct_cap       &kp LEFT        &kp DOWN        &kp RIGHT       &none           &none           &kp PG_DN       &kp N4          &kp N5          &kp N6          &kp MINUS       &kp PLUS
+        &mt LCTRL &m_caps       &kp LEFT        &kp DOWN        &kp RIGHT       &none           &none           &kp PG_DN       &kp N4          &kp N5          &kp N6          &kp MINUS       &kp PLUS
         &m_sh_num       &none           &none           &none           &none           &none           &kp DOT         &kp N1          &kp N2          &kp N3          &m_kpercent     &kp EQUAL
                                                         &trans          &mo 7           &trans          &m_kenter       &trans          &kp N0
       >;
