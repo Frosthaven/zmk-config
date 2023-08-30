@@ -55,9 +55,9 @@
     ZMK_MACRO(m_bslash, bindings = <&kp BACKSLASH>;)
 
     // numpad
-    ZMK_MACRO(m_divide, bindings = <&kp KP_DIVIDE>;)
-    ZMK_MACRO(m_multi, bindings = <&kp KP_MULTIPLY>;)
-    ZMK_MACRO(m_percen, bindings = <&kp KP_PERCENT>;)
+    ZMK_MACRO(m_kdivide, bindings = <&kp KP_DIVIDE>;)
+    ZMK_MACRO(m_kmultiply, bindings = <&kp KP_MULTIPLY>;)
+    ZMK_MACRO(m_kpercent, bindings = <&kp KP_PERCENT>;)
     ZMK_MACRO(m_kenter, bindings = <&kp KP_ENTER>;)
 
     // multi-tap
@@ -163,9 +163,9 @@
     raise_layer { // 6
       label = "NUMPAD";
       bindings = <
-        &kp ESC         &kp HOME        &kp UP          &kp END         &none           &none           &kp PG_UP       &kp N7          &kp N8          &kp N9          &m_divide       &m_multi
+        &kp ESC         &kp HOME        &kp UP          &kp END         &none           &none           &kp PG_UP       &kp N7          &kp N8          &kp N9          &m_kdivide      &m_kmultiply
         &m_ct_cap       &kp LEFT        &kp DOWN        &kp RIGHT       &none           &none           &kp PG_DN       &kp N4          &kp N5          &kp N6          &kp MINUS       &kp PLUS
-        &m_sh_num       &none           &none           &none           &none           &none           &kp DOT         &kp N1          &kp N2          &kp N3          &m_percen       &kp EQUAL
+        &m_sh_num       &none           &none           &none           &none           &none           &kp DOT         &kp N1          &kp N2          &kp N3          &m_kpercent     &kp EQUAL
                                                         &trans          &mo 7           &trans          &m_kenter       &trans          &kp N0
       >;
     };
