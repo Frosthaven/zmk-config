@@ -6,18 +6,10 @@ This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
  - (Optional) Compatible Displays: [nice!view](https://nicekeyboards.com/nice-view/)
 
 ## The Default Layer
-Layer 0 is the default layer, `COLE-DH`. This is a Colemak layout with the Mod-DH modifications.
+Layer 0 is the default layer, `COLE-DH`. This is a ColemakDH layout.
+*Note: Actions in ble text indicate that you must hold the key down for it to activate.*
 
 ![Layer 0](/visual/LAYER0.png)
-
-To access other layers while typing, you will be holding down the layer keys, shown in red.
- - Holding down the left key enables `SYMBOLS`
- - Holding down the right key enables `NUMPAD`
- - Holding down both keys enables `SYSTEM`.
-
-## Layers
-*Note: Keys with blue text indicate that you must hold the key for that action to take effect. Tapping the key will do the other listed action.*
-
 ![Layer 5](/visual/LAYER5.png)
 ![Layer 6](/visual/LAYER6.png)
 ![Layer 7](/visual/LAYER7.png)
