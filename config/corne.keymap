@@ -47,7 +47,7 @@
       compatible = "zmk,keymap";
 
       layout_layer_0 {
-        label = "COLE-DH";
+        label = "COL-DH";
         bindings = <
           &kp TAB               &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI              &kp BSPC
           &kp LCTRL             &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O                 &kp SQT
@@ -77,7 +77,7 @@
       };
 
       layout_layer_3 {
-        label = "WORKMAN";
+        label = "WRKMAN";
         bindings = <
           &trans                &kp Q             &kp D             &kp R             &kp W             &kp B             &kp J             &kp F             &kp U             &kp P             &kp SEMI              &trans
           &trans                &kp A             &kp S             &kp H             &kp T             &kp G             &kp Y             &kp N             &kp E             &kp O             &kp I                 &kp SQT
@@ -87,7 +87,7 @@
       };
 
       layout_layer_4 {
-        label = "COLEMAK";
+        label = "COLMAK";
         bindings = <
           &trans                &kp Q             &kp W             &kp F             &kp P             &kp G             &kp J             &kp L             &kp U             &kp Y             &kp SEMI              &trans
           &trans                &kp A             &kp R             &kp S             &kp T             &kp D             &kp H             &kp N             &kp E             &kp I             &kp O                 &kp SQT
@@ -97,7 +97,7 @@
       };
 
       lower_layer { // 5
-        label = "SYMBOLS";
+        label = "SYMBOL";
         bindings = <
           &kp ESC               &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp GRAVE         &kp EXCL          &kp AMPS          &kp AT            &kp HASH              &kp DEL
           &macro_caps           &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp DLLR          &kp LPAR          &kp LBRC          &kp LBKT          &kp PIPE              &kp CARET
@@ -107,11 +107,11 @@
       };
 
       raise_layer { // 6
-        label = "NUMPAD";
+        label = "NAVPAD";
         bindings = <
-          &kp ESC               &kp HOME          &kp UP            &kp END           &kp PG_UP         &none             &kp KP_NUMLOCK    &kp N7            &kp N8            &kp N9            &kp KP_DIVIDE          &kp KP_MULTIPLY
-          &macro_caps           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &none             &kp SCROLLLOCK    &kp N4            &kp N5            &kp N6            &kp MINUS              &kp PLUS
-          &kt LSHFT             &none             &none             &none             &none             &none             &kp DOT           &kp N1            &kp N2            &kp N3            &kp PERCENT            &kp EQUAL
+          &kp ESC               &none             &kp UP            &kp END           &kp HOME          &kp PG_UP         &kp INSERT        &kp N7            &kp N8            &kp N9            &kp KP_DIVIDE          &kp KP_MULTIPLY
+          &macro_caps           &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp PG_DN         &kp KP_NUMLOCK    &kp N4            &kp N5            &kp N6            &kp MINUS              &kp PLUS
+          &kt LSHFT             &none             &none             &none             &none             &none             &kp SCROLLLOCK    &kp N1            &kp N2            &kp N3            &kp PERCENT            &kp EQUAL
                                                                     &trans            &mo 7             &trans            &kp KP_ENTER      &trans            &kp N0
         >;
       };
