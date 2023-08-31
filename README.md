@@ -16,6 +16,6 @@ You can change the layout at any time by activating a magenta item on the `SYSTE
 ![Layer 7](/visual/v3/LAYER7.png)
 
 ## Notes
-- Shift Lock is a toggle, not a modifier. It will lock the shift key in the on position until pressed again.
+- Shift Lock is a toggle, not a modifier. It will lock the shift key in the on position until pressed again. Useful for games and applications that require you hold shift for a long duration.
 - Num Lock is included for compatibility with some applications. It does not change the behavior of the numpad cluster.
 - On the `SYSTEM` layer, the Bootloader and Reset keys will trigger for the side that the button is pressed on.
