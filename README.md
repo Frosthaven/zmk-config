@@ -7,7 +7,7 @@ This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
 
 ## Typing Layer
 
-Layer 0 is the default layer, `COL-DH`. You can change the layout at any time by activating a magenta item on the `SYSTEM` layer.
+Layer 0 (`COL-DH`), is the default typing layer layout. You can change the layout at any time by activating an alternate one on the right side of the `SYSTEM` layer.
 
 All supported typing layers can be viewed [here](LAYOUTS.md).
 
