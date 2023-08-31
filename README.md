@@ -22,4 +22,4 @@ This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
 ## Notes
 - Shift Lock is a toggle, not a modifier. It will lock the shift key in the on position until pressed again. Useful for games and applications that require you hold shift for a long duration.
 - Num Lock is included for compatibility with some applications. It does not change the behavior of the numpad cluster.
-- On the `SYSTEM` layer, the Bootloader and Reset keys will trigger for the side that the button is pressed on.
+- The Bootloader and Reset keys will trigger for the side that the button is pressed on.
