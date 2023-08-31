@@ -7,7 +7,7 @@ This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
 
 ## Typing Layer
 
-- Layer 0 - `COL-DH` - is the default typing layer layout. It is a Colemak ModDH layout.
+- Layer 0 - `COL-DH` - is the default typing layer. It is a Colemak ModDH layout.
 - You can change the layout by clicking an alternate one on the right side of the `SYSTEM` layer.
 - All supported typing layer layouts can be viewed [here](LAYOUTS.md).
 
