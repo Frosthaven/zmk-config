@@ -10,10 +10,10 @@ Layer 0 is the default layer, `COLE-DH`. This is a ColemakDH layout.
 
 You can change the layout at any time by activating a magenta item on the `SYSTEM` layer. The extra layouts can be viewed [here](LAYOUTS.md).
 
-![Layer 0](/visual/v4/LAYER0.png)
-![Layer 5](/visual/v4/LAYER5.png)
-![Layer 6](/visual/v4/LAYER6.png)
-![Layer 7](/visual/v4/LAYER7.png)
+![Layer 0](/visual/v5/LAYER0.png)
+![Layer 5](/visual/v5/LAYER5.png)
+![Layer 6](/visual/v5/LAYER6.png)
+![Layer 7](/visual/v5/LAYER7.png)
 
 ## Notes
 - Shift Lock is a toggle, not a modifier. It will lock the shift key in the on position until pressed again. Useful for games and applications that require you hold shift for a long duration.
