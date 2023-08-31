@@ -11,13 +11,13 @@ Layer 0 is the default layer, `COL-DH`. You can change the layout at any time by
 
 All supported typing layers can be viewed [here](LAYOUTS.md).
 
-![Layer 0](/visual/v6/LAYER0.png)
+![Layer 0](/visual/v7/LAYER0.png)
 
 ## Other Layers
 
-![Layer 5](/visual/v6/LAYER5.png)
-![Layer 6](/visual/v6/LAYER6.png)
-![Layer 7](/visual/v6/LAYER7.png)
+![Layer 5](/visual/v7/LAYER5.png)
+![Layer 6](/visual/v7/LAYER6.png)
+![Layer 7](/visual/v7/LAYER7.png)
 
 ## Notes
 - Shift Lock is a toggle, not a modifier. It will lock the shift key in the on position until pressed again. Useful for games and applications that require you hold shift for a long duration.
