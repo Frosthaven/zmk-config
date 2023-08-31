@@ -1,12 +1,21 @@
 ## Keyboard Layouts
 
-### Default Layout
+### Colemak Mod DH (Default Layout)
 
-![Layer 0](/visual/v5/LAYER0.png)
+![Layer 0](/visual/v6/LAYER0.png)
 
-### Alternate Layouts
+### QWERTY
 
-![Layer 1](/visual/v5/LAYER1.png)
-![Layer 2](/visual/v5/LAYER2.png)
-![Layer 3](/visual/v5/LAYER3.png)
-![Layer 4](/visual/v5/LAYER4.png)
+![Layer 1](/visual/v6/LAYER1.png)
+
+### Dvorak
+
+![Layer 2](/visual/v6/LAYER2.png)
+
+### Workman
+
+![Layer 3](/visual/v6/LAYER3.png)
+
+### Colemak
+
+![Layer 4](/visual/v6/LAYER4.png)
