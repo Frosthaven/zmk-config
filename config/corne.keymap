@@ -77,7 +77,7 @@
       };
 
       layout_layer_3 {
-        label = "WRKMAN";
+        label = "WRKMN";
         bindings = <
           &trans                &kp Q             &kp D             &kp R             &kp W             &kp B             &kp J             &kp F             &kp U             &kp P             &kp SEMI              &trans
           &trans                &kp A             &kp S             &kp H             &kp T             &kp G             &kp Y             &kp N             &kp E             &kp O             &kp I                 &kp SQT

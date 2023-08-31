@@ -11,13 +11,13 @@ This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
 - You can change the layout by clicking an alternate one on the right side of the `SYSTEM` layer.
 - All supported typing layer layouts can be viewed [here](LAYOUTS.md).
 
-![Layer 0](/visual/v7/LAYER0.png)
+![Layer 0](/visual/v8/LAYER0.png)
 
 ## Other Layers
 
-![Layer 5](/visual/v7/LAYER5.png)
-![Layer 6](/visual/v7/LAYER6.png)
-![Layer 7](/visual/v7/LAYER7.png)
+![Layer 5](/visual/v8/LAYER5.png)
+![Layer 6](/visual/v8/LAYER6.png)
+![Layer 7](/visual/v8/LAYER7.png)
 
 ## Notes
 - Shift Lock is a toggle, not a modifier. It will lock the shift key in the on position until pressed again. Useful for games and applications that require you hold shift for a long duration.
