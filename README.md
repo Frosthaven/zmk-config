@@ -3,7 +3,7 @@
 This is a bluetooth-enabled [ZMK firmware](https://zmk.dev/) configuration for:
  - Compatible Hardware: [Corne keyboard](https://github.com/foostan/crkbd)
  - Compatible Microcontroller: [nice!nano v2](https://nicekeyboards.com/nice-view/)
- - (Optional) Compatible Displays: [nice!view](https://nicekeyboards.com/nice-view/)
+ - (Optional) Compatible Displays: [nice!view](https://nicekeyboards.com/nice-view/) (Uses PIN 008 on the MC)
 
 ## Typing Layer
 
